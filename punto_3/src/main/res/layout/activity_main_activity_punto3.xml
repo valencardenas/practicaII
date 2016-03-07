@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.valentina.punto_3.MainActivity_punto3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:text="Areas"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/rGrupo">
+            <RadioButton
+                android:id="@+id/rCuadrado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cuadrado"
+                android:onClick="onRadioButtonClicked"/>
+            <RadioButton
+                android:id="@+id/rTriangulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Triangulo"
+                android:onClick="onRadioButtonClicked"/>
+            <RadioButton
+                android:id="@+id/rRectangulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rectangulo"
+                android:onClick="onRadioButtonClicked"/>
+            <RadioButton
+                android:id="@+id/rCirculo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Circulo"
+                android:onClick="onRadioButtonClicked"/>
+        </RadioGroup>
+    </LinearLayout>
+
+
+
+</LinearLayout>

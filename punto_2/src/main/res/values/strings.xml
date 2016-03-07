@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Punto_2</string>
+    <string name="Numero_1">Numero_1  </string>
+    <string name="Numero_2">Numero_2  </string>
+    <string name="Calculadora">Calculadora  </string>
+    <string name="Suma">Suma </string>
+    <string name="Resta">Resta </string>
+    <string name="Multiplicacion">Multiplicacion </string>
+    <string name="Division">Division </string>
+    <string name="Resultado">Resultado </string>
+    <string name="Calcular">Calcular </string>
+</resources>
